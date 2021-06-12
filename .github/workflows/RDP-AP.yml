@@ -26,7 +26,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/thip2618/backup/main/NGROK-AP.bat -OutFile NGROK-AP.bat
         Invoke-WebRequest https://raw.githubusercontent.com/thip2618/backup/main/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
         Invoke-WebRequest https://raw.githubusercontent.com/thip2618/backup/main/loop.bat -OutFile loop.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/thip2618/backup/main/SET-APP.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/thip2618/backup/main/SET-APP.bat -OutFile SET-APP.bat
     - name: Make YML file for NGROK.
       run: start NGROK-AP.bat
     - name: Enable RDP Access.
